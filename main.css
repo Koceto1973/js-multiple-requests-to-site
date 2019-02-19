@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  height:5vh;
+  width:100vw;
+  padding: 1vh 1vw;
+  background-color: gray;
+  display: flex;
+  flex-direction: roe;
+  justify-content: center;
+
+}
+
+header h1 {
+  text-align: center;
+  line-height: 3vh;
+  font-size: 3vh;
+  display: inline-block;
+}
+
+form {
+  height: 3vh;
+  line-height: 3vh;
+}
+
+section {
+  height:95vh;
+  width:100vw;
+  padding: 1vh 1vw;
+  background-color: darkgrey;
+  display:flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.line {
+  height:16vh;
+  padding: 1vh 1vw;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.box {
+  width:9vw;
+  background-color: darkgray;
+  text-align: center;
+}
